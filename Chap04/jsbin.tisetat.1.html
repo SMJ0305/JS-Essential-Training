@@ -25,6 +25,7 @@ document.write(Array[2]+"<br />");
 
 var Mutltivalues = {name:"DC Park", address:"133 Ojung-dong", position:"student"};
 document.write(Mutltivalues["name"]+"<br />");
+document.write(Mutltivalues["address"]+"<br />");
 
 var phrase = "This is a simple phrase";
 var position = phrase.indexOf("simple"); //
@@ -47,6 +48,9 @@ function playerDetails() {
   document.write(this.name +" has a rank of " + this.rank + " <br />");
 }
 
+ function playerScores() {
+        
+    }
 player1.logDetails = playerDetails; //함수 호출이 아니라 함수 연결(association)
 player2.logDetails = playerDetails; //함수 호출이 아니라 함수 연결(association)
 
